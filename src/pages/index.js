@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.container}>
-        <Header title="My Portfolio" />
+        <Header title="Karsten Koerner" />
         <div className={styles.content}>
           <Welcome title="Welcome to my portfolio!" />
           <List />
