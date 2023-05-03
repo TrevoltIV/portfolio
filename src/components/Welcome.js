@@ -18,8 +18,8 @@ export default function Welcome(props) {
                     But then I discovered React, and my whole world changed. I am now fluent in Next.js, SQL/NoSQL databases, Chrome extension development, and more!
                 </p>
                 <p className={styles.text}>
-                    This page is a simple portfolio, as you can see it isn&apos;t particularly creative. Below is a list of example websites I&apos;ve built, so you can see some designs I can build with ease. Keep in mind that these are basic templates, and I am not
-                    a designer, so if you have a web designer, I&apos;m sure we will make a great team.
+                    This page is a simple portfolio, as you can see it is not particularly creative. Below is a list of example websites I have built, so you can see some designs I can build with ease. Keep in mind that these are basic templates, and I am not
+                    a designer, so if you have a web designer, I am sure we will make a great team.
                 </p>
             </div>
         </div>
