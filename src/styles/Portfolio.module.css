@@ -72,32 +72,52 @@
     align-items: center;
 }
 
-.welcome {
-    background: rgb(231, 231, 231);
-    width: 80%;
-    min-height: 500px;
+.projects {
+    width: 60%;
 
     display: flex;
     flex-direction: column;
+}
+
+.projectWrapper {
+    margin-top: 40px;
+
+    display: flex;
     justify-content: flex-start;
-    align-items: center;
 }
 
-.welcomeTitle {
-    margin-top: 30px;
+.project {
+    
+}
+
+.projectImageWrapper {
+    width: 180px;
+    height: 130px;
+}
+
+.projectImage {
+    margin-right: 30px;
+}
+
+.title {
+    font-family: sans-serif;
+}
+
+.desc {
+    margin-top: 10px;
 
     font-family: sans-serif;
-    color: #000;
-    font-size: 24px;
+}
+
+.date {
+    margin-top: 10px;
+
+    font-family: sans-serif;
     font-weight: 700;
-    text-align: center;
 }
 
-.welcomeText {
-    width: 80%;
-    margin-top: 20px;
+.github {
+    margin-top: 10px;
 
     font-family: sans-serif;
-    color: #000;
-    text-align: center;
 }
