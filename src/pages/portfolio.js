@@ -10,7 +10,7 @@ import styles from '@/styles/Portfolio.module.css'
 export async function getServerSideProps() {
   const { getCollection } = require('databased')
 
-  const projects = await getCollection('db', 'projects')
+  const projects = (await getCollection('db', 'projects'))
 
   return {
     props: {
@@ -24,8 +24,8 @@ export default function Home({ projects }) {
   return (
     <>
       <Head>
-        <title>Home | Karsten Koerner</title>
-        <meta name="description" content="Full Stack Developer Portfolio" />
+        <title>My Portfolio | Karsten Koerner</title>
+        <meta name="description" content="Developer Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main className={styles.main}>
@@ -45,8 +45,14 @@ export default function Home({ projects }) {
                 <Link href="/" className={styles.menuBtn}>
                   Home
                 </Link>
+                <Link href="/skills" className={styles.menuBtn}>
+                  Skills
+                </Link>
                 <Link href="/portfolio" className={styles.menuBtn}>
                   Portfolio
+                </Link>
+                <Link href="/freelance" className={styles.menuBtn}>
+                  Freelance
                 </Link>
                 <Link href="/contact" className={styles.menuBtn}>
                   Contact
@@ -92,6 +98,13 @@ export default function Home({ projects }) {
                                 {project.github_link}
                               </Link>
                             </p>
+                            {project.website_link && (
+                              <p className={styles.github}>
+                                Website: <Link href={project.website_link}>
+                                  {project.website_link}
+                                </Link>
+                              </p>
+                            )}
                           </div>
                         </div>
                     )

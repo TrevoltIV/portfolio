@@ -29,8 +29,14 @@ export default function Home() {
                 <Link href="/" className={styles.menuBtn}>
                   Home
                 </Link>
+                <Link href="/skills" className={styles.menuBtn}>
+                  Skills
+                </Link>
                 <Link href="/portfolio" className={styles.menuBtn}>
                   Portfolio
+                </Link>
+                <Link href="/freelance" className={styles.menuBtn}>
+                  Freelance
                 </Link>
                 <Link href="/contact" className={styles.menuBtn}>
                   Contact

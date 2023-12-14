@@ -1,0 +1,101 @@
+
+
+.main {
+
+}
+
+.container {
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoWrapper {
+    width: 110px;
+    height: 110px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.menuWrapper {
+    background: rgb(231, 231, 231);
+    width: 100%;
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuBtn {
+    background: rgb(53, 115, 209);
+    width: 150px;
+    height: 50px;
+    margin: 0 40px 0 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 4px;
+
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.menuBtn:hover {
+    background: rgb(45, 96, 173);
+}
+
+.pageContent {
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills {
+
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillTitle {
+    background: rgb(241, 241, 241);
+    margin-top: 50px;
+    padding: 5px;
+
+    border-bottom: solid 4px #a7a7a7;
+    border-radius: 4px;
+
+    font-family: sans-serif;
+}
+
+.subSkillTitle {
+    margin-top: 10px;
+
+    font-family: sans-serif;
+}

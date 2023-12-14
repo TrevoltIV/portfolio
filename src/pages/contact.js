@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Home | Karsten Koerner</title>
-        <meta name="description" content="Full Stack Developer Portfolio" />
+        <title>Contact | Karsten Koerner</title>
+        <meta name="description" content="Contact page for anything related to software or web development" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main className={styles.main}>
@@ -29,8 +29,14 @@ export default function Home() {
                 <Link href="/" className={styles.menuBtn}>
                   Home
                 </Link>
+                <Link href="/skills" className={styles.menuBtn}>
+                  Skills
+                </Link>
                 <Link href="/portfolio" className={styles.menuBtn}>
                   Portfolio
+                </Link>
+                <Link href="/freelance" className={styles.menuBtn}>
+                  Freelance
                 </Link>
                 <Link href="/contact" className={styles.menuBtn}>
                   Contact
