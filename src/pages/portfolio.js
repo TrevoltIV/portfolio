@@ -2,13 +2,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import axios from 'axios'
+const { getCollection } = require('databased')
 import styles from '@/styles/Portfolio.module.css'
 
 
 
 
 export async function getServerSideProps() {
-  const { getCollection } = require('databased')
 
   const projects = (await getCollection('db', 'projects'))
 
